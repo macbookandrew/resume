@@ -1,3 +1,6 @@
+@import '../bower_components/normalize-css/normalize.css';
+@import 'fonts';
+
 * {
 	box-sizing: border-box;
 }
@@ -8,8 +11,8 @@
 }
 
 .email {
-    direction: rtl;
-    unicode-bidi: bidi-override;
+	direction: rtl;
+	unicode-bidi: bidi-override;
 }
 
 body {
@@ -27,6 +30,7 @@ body > section {
 	width: 100%;
 	margin: 0 0 1em 0;
 	padding: 1em;
+	background-color: yellow;
 }
 
 .flexbox section {
@@ -36,6 +40,19 @@ body > section {
 
 h1, h2 {
 	margin: 0;
+}
+
+h1 {
+	font-family: sansationlight;
+}
+
+h2 {
+	font-family: museo_slab500;
+}
+
+section {
+	font-family: 'Helvetica Neue';
+	font-weight: 200;
 }
 
 @media (min-width: 50em) {
