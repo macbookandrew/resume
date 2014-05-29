@@ -1,0 +1,48 @@
+body {
+	width: 80%;
+	max-width: 1250px;
+	margin: 1em auto;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: 200;
+}
+
+body > section {
+	width: 100%;
+	margin: 0 0 1em 0;
+	padding: 1em;
+	background-color: yellow;
+}
+
+h1, h2 {
+	margin: 0;
+}
+
+.flexbox body {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flexbox section {
+	flex-grow: 1;
+
+}
+
+@media (min-width: 50em) {
+
+	.half-width {
+		width: 48%;
+	}
+
+	.half-width:nth-child(even) {
+		margin-left: 1em;
+	}
+
+	.half-width:last-of-type {
+		margin-left: 1em;
+	}
+
+	.half-width:nth-child(8) {
+		margin-left: 0;
+	}
+
+}

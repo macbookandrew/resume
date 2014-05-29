@@ -1,5 +1,6 @@
-@import '../bower_components/normalize-css/normalize.scss';
 @import 'fonts';
+@import '../bower_components/normalize-css/normalize.scss';
+@import 'layout';
 
 * {
 	box-sizing: border-box;
@@ -8,6 +9,7 @@
 .tel {
 	color: inherit;
 	text-decoration: none;
+	font-weight: inherit;
 }
 
 .email {
@@ -16,32 +18,8 @@
 }
 
 body {
-	width: 80%;
-	max-width: 1250px;
-	margin: 1em auto;
 	font-family: 'Helvetica Neue', Helvetica, sans-serif;
 	font-weight: 200;
-}
-
-.flexbox body {
-	display: flex;
-	flex-wrap: wrap;
-}
-
-body > section {
-	width: 100%;
-	margin: 0 0 1em 0;
-	padding: 1em;
-	background-color: yellow;
-}
-
-.flexbox section {
-	flex-grow: 1;
-
-}
-
-h1, h2 {
-	margin: 0;
 }
 
 h1 {
@@ -62,22 +40,3 @@ a {
 	line-height: 1.5;
 }
 
-@media (min-width: 50em) {
-
-	.half-width {
-		width: 48%;
-	}
-
-	.half-width:nth-child(even) {
-		margin-left: 1em;
-	}
-
-	.half-width:last-of-type {
-		margin-left: 1em;
-	}
-
-	.half-width:nth-child(8) {
-		margin-left: 0;
-	}
-
-}
