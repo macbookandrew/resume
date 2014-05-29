@@ -19,6 +19,8 @@ body {
 	width: 80%;
 	max-width: 1250px;
 	margin: 1em auto;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: 200;
 }
 
 .flexbox body {
@@ -48,11 +50,16 @@ h1 {
 
 h2 {
 	font-family: museo_slab500;
+	color: white;
 }
 
-section {
-	font-family: 'Helvetica Neue';
-	font-weight: 200;
+a {
+	font-weight: 700;
+	color: black;
+}
+
+.content ul {
+	line-height: 1.5;
 }
 
 @media (min-width: 50em) {
