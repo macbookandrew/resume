@@ -10,7 +10,6 @@ body > section {
 	width: 100%;
 	margin: 0 0 1em 0;
 	padding: 1em;
-	background-color: yellow;
 }
 
 h1, h2 {
@@ -24,7 +23,44 @@ h1, h2 {
 
 .flexbox section {
 	flex-grow: 1;
+#profile,
+#experience-web,
+#experience-physical {
+	background-color: rgba(133,158,220,.17);
+}
 
+#profile h2,
+#experience-web h2,
+#experience-physical h2 {
+	background-color: rgba(133,158,220,1);
+}
+
+#experience-general,
+#experience-software {
+	background-color: rgba(92,119,178,.17);
+}
+
+#experience-general h2,
+#experience-software h2 {
+	background-color: rgba(92,119,178,1);
+}
+
+#work-experience {
+	background-color: rgba(53,83,138,.17);
+}
+
+#work-experience h2 {
+	background-color: rgba(53,83,138,1);
+}
+
+#education,
+#references {
+	background-color: rgba(2,49,100,.17);
+}
+
+#education h2,
+#references h2 {
+	background-color: rgba(2,49,100,1);
 }
 
 @media (min-width: 50em) {
