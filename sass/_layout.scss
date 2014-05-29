@@ -1,19 +1,38 @@
+html {
+	font-size: 62.5%;
+}
+
 body {
 	width: 80%;
 	max-width: 1250px;
 	margin: 1em auto;
+	font-size: 1.6rem;
 	font-family: 'Helvetica Neue', Helvetica, sans-serif;
 	font-weight: 200;
 }
 
-body > section {
+body > section,
+header {
 	width: 100%;
 	margin: 0 0 1em 0;
-	padding: 1em;
+}
+
+header p {
+	margin: 0;
+	line-height: 1.5;
 }
 
 h1, h2 {
 	margin: 0;
+}
+
+h2 {
+	font-size: 2.4rem;
+	padding: 1rem;
+}
+
+section ul {
+	padding-right: 1rem;
 }
 
 .flexbox body {
@@ -23,6 +42,8 @@ h1, h2 {
 
 .flexbox section {
 	flex-grow: 1;
+}
+
 #profile,
 #experience-web,
 #experience-physical {
@@ -64,6 +85,15 @@ h1, h2 {
 }
 
 @media (min-width: 50em) {
+	
+	.flexbox header {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	header p {
+		text-align: right;
+	}
 
 	.half-width {
 		width: 48%;
