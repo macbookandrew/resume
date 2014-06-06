@@ -31,8 +31,9 @@ h2 {
 	padding: 1rem;
 }
 
-section ul {
+.content ul {
 	padding-right: 1rem;
+	padding-bottom: 1rem;
 }
 
 .flexbox body {
@@ -99,15 +100,15 @@ section ul {
 		width: 48%;
 	}
 
-	.half-width:nth-child(even) {
+	.flexbox .half-width:nth-child(even) {
 		margin-left: 1em;
 	}
 
-	.half-width:last-of-type {
+	.flexbox .half-width:last-of-type {
 		margin-left: 1em;
 	}
 
-	.half-width:nth-child(8) {
+	.flexbox .half-width:nth-child(8) {
 		margin-left: 0;
 	}
 
