@@ -92,6 +92,12 @@ h2 {
 		justify-content: space-between;
 	}
 
+	.no-flexbox header p {
+		float: right;
+		position: relative;
+		top: -4rem;
+	}
+
 	header p {
 		text-align: right;
 	}
@@ -100,12 +106,34 @@ h2 {
 		width: 48%;
 	}
 
+	.no-flexbox section {
+		clear: both
+	}
+
+	.no-flexbox .half-width:nth-child(odd) {
+		float: left;
+	}
+
+	.no-flexbox .half-width:nth-child(even) {
+		float: right;
+		clear: none;
+	}
+
 	.flexbox .half-width:nth-child(even) {
 		margin-left: 1em;
 	}
 
 	.flexbox .half-width:last-of-type {
 		margin-left: 1em;
+	}
+
+	.no-flexbox .half-width:nth-child(8) {
+		float: left;
+	}
+
+	.no-flexbox .half-width:nth-child(9) {
+		float: right;
+		clear: none;
 	}
 
 	.flexbox .half-width:nth-child(8) {
