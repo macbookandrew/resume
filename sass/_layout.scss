@@ -37,11 +37,19 @@ h2 {
 }
 
 .flexbox body {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 }
 
 .flexbox section {
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	-ms-flex-positive: 1;
 	flex-grow: 1;
 }
 
@@ -88,7 +96,13 @@ h2 {
 @media (min-width: 50em) {
 	
 	.flexbox header {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
 		display: flex;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		-ms-flex-pack: justify;
 		justify-content: space-between;
 	}
 
