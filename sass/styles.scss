@@ -3,51 +3,52 @@
 @import 'layout';
 
 * {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .tel {
-	color: inherit;
-	text-decoration: none;
-	font-weight: inherit;
+    color: inherit;
+    text-decoration: none;
+    font-weight: inherit;
 }
 
 .email {
-	direction: rtl;
-	unicode-bidi: bidi-override;
+    direction: rtl;
+    unicode-bidi: bidi-override;
 }
 
 body {
-	font-family: 'Helvetica Neue', Helvetica, sans-serif;
-	font-weight: 200;
+    font-family: Lato, 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1.6rem;
 }
 
 h1 {
-	font-family: sansationlight;
+    font-family: sansationlight;
 }
 
 h2 {
-	font-family: museo_slab500;
-	color: white;
+    font-family: museo_slab500;
+    color: white;
 }
 
 a {
-	font-weight: 700;
-	color: black;
+    font-weight: 700;
+    color: black;
 }
 
 .content ul {
-	line-height: 1.5;
+    line-height: 1.5;
 }
 
 .credit {
-	width: 100%;
-	font-size: smaller;
-	text-align: center;
+    width: 100%;
+    font-size: smaller;
+    text-align: center;
 }
 
 .credit a {
-	font-weight: normal;
+    font-weight: normal;
 }
