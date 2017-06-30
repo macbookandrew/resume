@@ -395,6 +395,7 @@ h2 {
   font-size: 2.4rem;
   padding: 1rem; }
 
+.content ol,
 .content ul {
   padding-right: 1rem;
   padding-bottom: 1rem; }
@@ -527,6 +528,7 @@ a {
   font-weight: 700;
   color: black; }
 
+.content ol,
 .content ul {
   line-height: 1.5; }
 
