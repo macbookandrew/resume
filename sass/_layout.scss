@@ -92,7 +92,8 @@ h2 {
     }
 }
 
-#interests {
+#interests,
+#links {
     background-color: rgba($blue-5, .17);
     h2 {
         background-color: $blue-5;
@@ -128,8 +129,8 @@ h2 {
 
         &:nth-child(even) { margin-right: 0; }
 
-        &:nth-child(8n) { margin-right: 1em; }
-        &:nth-child(9n) { margin-right: 0; }
+        &#education, &#interests { margin-right: 1em; }
+        &#references, &#links { margin-right: 0; }
     }
     .no-flexbox section {
         clear: both;
@@ -145,8 +146,6 @@ h2 {
                 clear: none;
             }
         }
-
-        &:last-of-type { margin-left: 1em; }
     }
 }
 
